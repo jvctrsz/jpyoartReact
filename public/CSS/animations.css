@@ -1,0 +1,56 @@
+.fadeInTop { animation-name: fadeInTop }
+@keyframes fadeInTop {
+    from {
+        opacity: 0;
+        transform: translateY(-10%);
+    }
+    to { opacity: 1 }
+}
+
+
+
+.typing {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    border-right: 2px solid #7E2EA0;
+    animation: typing 2s steps(12, end), cursor .2s steps(12, end) infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+}
+@keyframes cursor {
+    50% { border-color: transparent }
+}
+
+
+
+.open {
+    width: 473px;
+    margin: 0 auto;
+    overflow: hidden;
+    display: inline-flex;
+    animation-name: open;
+}
+@keyframes open {
+    from { width: 0 }
+}
+
+
+
+.leBounceFromTop span { animation-name: leBounceFromTop }
+@keyframes leBounceFromTop {
+    0%, 25%, 55%, 85%, 100% {
+        animation-timing-function: ease-out;
+        transform: translate3d(0, 0, 0);
+    }
+    41%, 44% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -80px, 0) scale3d(1, 1.2, 1);
+    }
+    70% {
+        animation-timing-function: ease-in;
+        transform: translate3d(0, -20px, 0);
+    }
+    90% { transform: translate3d(0, -4px, 0) }
+}
