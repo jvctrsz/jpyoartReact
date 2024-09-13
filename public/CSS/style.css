@@ -11,7 +11,7 @@
 
 #card-content{
     display: none;
-    background-image: url(./style.css);
+    background-image: url(public/images/card-background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -79,7 +79,7 @@
     display: none;
     width: 100vw;
     height: 100vh;
-    background-image: url(./images/card-background.jpg);
+    background-image: url(/public/images/card-background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -224,7 +224,7 @@
 #contacts-content{
     min-height: 100vh;
     max-width: 100vw;
-    background-image: url(./images/card-background.jpg);
+    background-image: url(/public/images/card-background.jpg);
     background-size: cover;
     background-position: center;
     display: none;
