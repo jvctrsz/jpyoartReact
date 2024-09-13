@@ -11,7 +11,7 @@
 
 #card-content{
     display: none;
-    background-image: url(./images/card-background.jpg);
+    background-image: url(./style.css);
     background-size: cover;
     background-position: center;
 }
@@ -158,7 +158,7 @@
 /* WORKS */
 
 #works-content{
-    background-image: url(./images/card-background.jpg);
+    background-image: url(./style.css);
     background-size: cover;
     background-position: center;
     display: flex;
