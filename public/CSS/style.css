@@ -158,7 +158,7 @@
 /* WORKS */
 
 #works-content{
-    background-image: url(./style.css);
+    background-image: url(/public/images/card-background.jpg);
     background-size: cover;
     background-position: center;
     display: flex;
