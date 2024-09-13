@@ -3,7 +3,7 @@ import CardSection from "../public/Pages/CardSection"
 import AboutSection from "../public/Pages/AboutSection"
 import WorksSection from "../public/Pages/WorksSection"
 import ContactsSection from "../public/Pages/ContactsSection"
-import '../public/CSS/style.css'
+import './assets/style.css'
 import '../public/CSS/mediaquery.css'
 import '../public/CSS/animations.css'
 import 'animate.css';
